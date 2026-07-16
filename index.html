@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="305 Budapest - Miami style brunch and cocktail bar Budapesten. Tropical drinks, brunch plates, golden hour vibe."
+    />
+    <title>305 Budapest | Miami Style Brunch & Cocktail Bar</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://www.instagram.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="promo-modal" data-promo-modal aria-hidden="true">
+      <div class="promo-modal__backdrop" data-promo-close></div>
+      <section class="promo-modal__card" role="dialog" aria-modal="true" aria-labelledby="promo-title" aria-describedby="promo-description">
+        <button class="promo-modal__close" type="button" aria-label="Close offer" data-promo-close><span aria-hidden="true">&times;</span></button>
+        <a class="promo-modal__visual" href="#deals" data-promo-close aria-label="See the complete Summer Deal offer">
+          <img src="assets/promotions/summer-deal-front.png" alt="305 Summer Deal: buy one selected cocktail and get one free" />
+        </a>
+        <div class="promo-modal__content">
+          <p class="eyebrow">Cocktail happy hours</p>
+          <div class="promo-modal__offer" aria-hidden="true"><span>1</span><i>+</i><span>1</span></div>
+          <h2 id="promo-title">Twice the cocktail,<br />same golden hour.</h2>
+          <div class="promo-modal__times" id="promo-description">
+            <div><span>Every day</span><strong>14:00–15:00</strong></div>
+            <div><span>Thursday–Sunday</span><strong>18:00–20:00</strong></div>
+          </div>
+          <p class="promo-modal__note">The 1+1 offer applies to the selected cocktails shown on the Summer Deal flyer.</p>
+          <a class="button primary" href="#deals" data-promo-close>See the full offer</a>
+        </div>
+      </section>
+    </div>
+
+    <button class="promo-reopen" type="button" data-promo-open aria-label="Open the 1 plus 1 cocktail offer">
+      <strong>1+1</strong><span>Happy hours</span>
+    </button>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="305 Budapest home">
+        <span class="brand-mark">305</span>
+        <span class="brand-copy">Budapest</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#vibe">Vibe</a>
+        <a href="#menu">Menu</a>
+        <a href="#deals">Deals</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-action" href="tel:+36303055305" aria-label="Call 305 Budapest to reserve a table">
+        Call to reserve
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="assets/images/hero-brunch.jpg"
+            alt=""
+            fetchpriority="high"
+          />
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Miami style in Budapest</p>
+          <h1 id="hero-title">305</h1>
+          <p class="hero-lead">
+            Brunch, cocktails, tropical flavors and golden moments. Bright, bold, beautifully relaxed.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://www.instagram.com/305budapest/" target="_blank" rel="noreferrer">
+              Instagram
+            </a>
+            <a class="button ghost" href="#menu">See the menu</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="Quick info">
+          <span>Brunch & Cocktail Bar</span>
+          <strong>Paradise is calling</strong>
+          <small>@305budapest</small>
+        </aside>
+      </section>
+
+      <section class="ticker" aria-label="305 Budapest highlights">
+        <div class="ticker-track">
+          <div class="ticker-group">
+            <span>Signature cocktails</span>
+            <span>1+1 every day · 14:00–15:00</span>
+            <span>1+1 Thu–Sun · 18:00–20:00</span>
+            <span>Brunch Tue–Sun · 09:00–15:00</span>
+            <span>Summer specials</span>
+            <span>Miami style in Budapest</span>
+            <span>Nagymező utca 68.</span>
+          </div>
+          <div class="ticker-group" aria-hidden="true">
+            <span>Signature cocktails</span>
+            <span>1+1 every day · 14:00–15:00</span>
+            <span>1+1 Thu–Sun · 18:00–20:00</span>
+            <span>Brunch Tue–Sun · 09:00–15:00</span>
+            <span>Summer specials</span>
+            <span>Miami style in Budapest</span>
+            <span>Nagymező utca 68.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section split" id="vibe">
+        <div class="section-copy">
+          <p class="eyebrow">The Vibe</p>
+          <h2>Brunch in the sunshine. Signature cocktails after dark.</h2>
+        </div>
+        <div class="section-text">
+          <p>
+            305 brings Miami energy to the heart of Budapest. Start with colorful brunch plates, fresh bowls and
+            specialty coffee, then stay for tropical signature cocktails, music and an easy-going evening at
+            Nagymező utca 68.
+          </p>
+          <div class="stats">
+            <div>
+              <strong>09–15</strong>
+              <span>brunch · Tue–Sun</span>
+            </div>
+            <div>
+              <strong>18–22</strong>
+              <span>bar · Thu–Sun</span>
+            </div>
+            <div>
+              <strong>1+1</strong>
+              <span>selected cocktails</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section menu-section" id="menu" aria-labelledby="menu-title">
+        <div class="section-heading">
+          <p class="eyebrow">Menu highlights</p>
+          <h2 id="menu-title">Cocktails, brunch and easy-going classics.</h2>
+        </div>
+        <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+          <button class="tab is-active" type="button" role="tab" aria-selected="true" data-filter="cocktails">
+            Cocktails
+          </button>
+          <button class="tab" type="button" role="tab" aria-selected="false" data-filter="brunch">Brunch</button>
+          <button class="tab" type="button" role="tab" aria-selected="false" data-filter="coffee">Coffee</button>
+          <button class="tab" type="button" role="tab" aria-selected="false" data-filter="summer">Summer</button>
+        </div>
+        <div class="menu-grid" data-menu-grid>
+          <article class="menu-card" data-category="cocktails">
+            <span>01</span>
+            <h3>Coco Loco Mojito</h3>
+            <p>White rum, coconut, lime and soda.</p>
+            <strong>2.990 Ft</strong>
+          </article>
+          <article class="menu-card" data-category="cocktails">
+            <span>02</span>
+            <h3>Lychee Dream</h3>
+            <p>Gin, lychee, lime and tonic.</p>
+            <strong>2.990 Ft</strong>
+          </article>
+          <article class="menu-card" data-category="cocktails">
+            <span>03</span>
+            <h3>Miami Vice Watermelon</h3>
+            <p>Vodka, watermelon, lime, mint and soda.</p>
+            <strong>2.990 Ft</strong>
+          </article>
+          <article class="menu-card" data-category="brunch">
+            <span>04</span>
+            <h3>South Beach Avocado Toast</h3>
+            <p>Smashed avocado, lime, cherry tomatoes, chili and mixed greens.</p>
+            <strong>3.950 Ft</strong>
+          </article>
+          <article class="menu-card" data-category="brunch">
+            <span>05</span>
+            <h3>Flamingo Egg Taco</h3>
+            <p>Scrambled eggs, avocado, pulled pork, chili sauce and mixed greens.</p>
+            <strong>3.990 Ft</strong>
+          </article>
+          <article class="menu-card" data-category="brunch">
+            <span>06</span>
+            <h3>305 Waffle Box</h3>
+            <p>Fluffy waffles, fresh fruit and sauces of your choice.</p>
+            <strong>3.490 Ft</strong>
+          </article>
+          <article class="menu-card" data-category="coffee">
+            <span>07</span>
+            <h3>Cappuccino</h3>
+            <p>Classic coffee, softly textured milk.</p>
+            <strong>1.250 Ft</strong>
+          </article>
+          <article class="menu-card" data-category="coffee">
+            <span>08</span>
+            <h3>Iced Latte</h3>
+            <p>Chilled espresso and milk for warm Budapest days.</p>
+            <strong>1.590 Ft</strong>
+          </article>
+          <article class="menu-card" data-category="coffee">
+            <span>09</span>
+            <h3>Dirty Sodas</h3>
+            <p>Dr. Spice, South Beach Swirl, Tropic Bomb or Cherry Sunset.</p>
+            <strong>1.590 Ft</strong>
+          </article>
+          <article class="menu-card" data-category="summer">
+            <span>10</span>
+            <h3>Raspberry Rose Spritz</h3>
+            <p>Rosé prosecco, raspberry purée and delicate rose notes.</p>
+          </article>
+          <article class="menu-card" data-category="summer">
+            <span>11</span>
+            <h3>El Paraíso</h3>
+            <p>Banana liqueur, passion fruit, coconut, prosecco and soda.</p>
+          </article>
+          <article class="menu-card" data-category="summer">
+            <span>12</span>
+            <h3>Tropicana</h3>
+            <p>Sprite, pineapple, sweet melon and coconut cloud foam.</p>
+          </article>
+        </div>
+
+        <div class="menu-downloads" aria-labelledby="full-menus-title">
+          <div class="menu-downloads__heading">
+            <img src="assets/menus/logo.png" alt="305 Miami Style Brunch and Cocktail Bar" />
+            <div>
+              <p class="eyebrow">Full selection</p>
+              <h2 id="full-menus-title">Explore the complete menus.</h2>
+            </div>
+          </div>
+          <div class="menu-documents">
+            <article class="menu-document">
+              <a href="assets/menus/food-menu.pdf" target="_blank" aria-label="Open the full brunch menu PDF">
+                <img src="assets/menus/food-menu-preview.png" alt="Preview of the 305 brunch menu" />
+                <div><span>2 pages · PDF</span><strong>Brunch menu</strong><em>Open menu ↗</em></div>
+              </a>
+            </article>
+            <article class="menu-document">
+              <a href="assets/menus/drink-menu.pdf" target="_blank" aria-label="Open the full drinks menu PDF">
+                <img src="assets/menus/drink-menu-preview.png" alt="Preview of the 305 cocktail menu" />
+                <div><span>4 pages · PDF</span><strong>Drinks & cocktails</strong><em>Open menu ↗</em></div>
+              </a>
+            </article>
+            <article class="menu-document">
+              <a href="assets/menus/summer-menu.pdf" target="_blank" aria-label="Open the summer specials menu PDF">
+                <img src="assets/menus/summer-menu-preview.png" alt="Preview of the 305 summer specials menu" />
+                <div><span>1 page · PDF</span><strong>Summer specials</strong><em>Open menu ↗</em></div>
+              </a>
+            </article>
+          </div>
+          <p class="menu-service-note">All prices include VAT. A 12% service fee is added to the final bill. Please see the full brunch menu for allergen information.</p>
+        </div>
+      </section>
+
+      <section class="section deal-section" id="deals" aria-labelledby="deals-title">
+        <div class="deal-heading">
+          <div>
+            <p class="eyebrow">Summer Deal</p>
+            <h2 id="deals-title">Buy one.<br />Get one free.</h2>
+          </div>
+          <div class="deal-summary">
+            <p>The 1+1 offer is available on the selected cocktails shown below.</p>
+            <div class="deal-times">
+              <div><span>Every day</span><strong>14:00–15:00</strong></div>
+              <div><span>Thursday–Sunday</span><strong>18:00–20:00</strong></div>
+            </div>
+            <small>Promotion times are listed here separately because they are not printed on the original flyer.</small>
+          </div>
+        </div>
+        <div class="deal-flyers">
+          <figure>
+            <img src="assets/promotions/summer-deal-front.png" alt="Front of the 305 Summer Deal flyer with two signature cocktails" />
+            <figcaption>Summer Deal · 1+1 selected cocktails</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/promotions/summer-deal-cocktails.png" alt="Selected cocktails included in the 305 Summer Deal" />
+            <figcaption>Eligible cocktail selection</figcaption>
+          </figure>
+        </div>
+        <div class="opening-hours" aria-label="Opening hours and address">
+          <div><span>Brunch hours</span><strong>Tuesday–Sunday · 09:00–15:00</strong></div>
+          <div><span>Bar hours</span><strong>Thursday–Sunday · 18:00–22:00</strong></div>
+          <div><span>Visit us</span><strong>Nagymező utca 68, Budapest 1065</strong></div>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery" aria-label="Gallery">
+        <figure class="gallery-item tall">
+          <img src="assets/gallery/305-17.jpg" alt="Friends enjoying colorful signature cocktails at 305 Budapest" loading="lazy" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="assets/gallery/305-48.jpg" alt="Guest enjoying a drink on the 305 Budapest terrace" loading="lazy" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="assets/gallery/305-74.jpg" alt="Guest presenting a red cocktail at 305 Budapest" loading="lazy" />
+        </figure>
+        <figure class="gallery-item tall">
+          <img src="assets/gallery/305-101.jpg" alt="Dog-friendly moment with a blue signature cocktail" loading="lazy" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="assets/gallery/305-79.jpg" alt="Guest enjoying a refreshing red cocktail" loading="lazy" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="assets/gallery/305-102.jpg" alt="Guest holding a small dog on the 305 Budapest terrace" loading="lazy" />
+        </figure>
+        <figure class="gallery-item tall">
+          <img src="assets/gallery/305-204.jpg" alt="Friends enjoying avocado toast, a fresh bowl and drinks at 305 Budapest" loading="lazy" />
+        </figure>
+        <figure class="gallery-item wide">
+          <img src="assets/gallery/305-123.jpg" alt="Orange and blue 305 signature cocktails" loading="lazy" />
+        </figure>
+      </section>
+
+      <section class="section testimonials" aria-labelledby="reviews-title" data-reviews-section hidden>
+        <div class="reviews-intro">
+          <p class="eyebrow">Guests say</p>
+          <h2 id="reviews-title">Fast service, great music, special cocktails.</h2>
+          <div class="google-rating" aria-live="polite">
+            <strong data-google-rating>—</strong>
+            <div>
+              <span class="google-rating__stars" aria-hidden="true">★★★★★</span>
+              <small><span data-google-count>Saved Google</span> reviews</small>
+            </div>
+          </div>
+          <a class="reviews-link" href="https://www.google.com/maps/search/?api=1&amp;query=305+Budapest" target="_blank" rel="noreferrer">
+            Read more on Google Maps <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="quotes" data-google-reviews aria-live="polite">
+          <blockquote>
+            <div class="quote-rating" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>“Nagyon szép estét töltöttünk az újonnan nyílt helyen. Kedves és gyors kiszolgálás, jó zene, barátságos személyzet. Szuper koktélok és nagyon finom a Prosecco.”</p>
+            <cite>Google review</cite>
+          </blockquote>
+          <blockquote>
+            <div class="quote-rating" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>“Nagyon szuper kiscsapat, nagyon segítőkész fiatal munkaerő, fantasztikus ételek és különleges koktélokkal is találkoztunk. Mindenkinek csak ajánlani tudom!”</p>
+            <cite>Google review</cite>
+          </blockquote>
+          <blockquote>
+            <div class="quote-rating" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>“The food was fresh, flavorful, and beautifully presented — every bite felt like a taste of Miami. The service was exceptional and the atmosphere was vibrant and classy.”</p>
+            <cite>Google review</cite>
+          </blockquote>
+          <blockquote>
+            <div class="quote-rating" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>“It’s a really nice place with amazing people and amazing drinks and cocktails.”</p>
+            <cite>Google review</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="contact-band" id="booking">
+        <div>
+          <p class="eyebrow">Find the table</p>
+          <h2>Book the Miami mood.</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="tel:+36303055305">
+            Call +36 30 305 5305
+          </a>
+          <a class="social-link" href="https://www.tiktok.com/@305_brunch_budapest" target="_blank" rel="noreferrer">
+            TikTok
+          </a>
+          <a class="social-link" href="https://www.facebook.com/profile.php?id=61582091705845" target="_blank" rel="noreferrer">
+            Facebook
+          </a>
+        </div>
+      </section>
+
+      <section class="location-section" id="contact" aria-labelledby="location-title">
+        <div class="location-copy">
+          <p class="eyebrow">Find us</p>
+          <h2 id="location-title">Your Miami stop in Budapest.</h2>
+          <address>
+            <strong>305 Budapest</strong>
+            <span>Nagymező utca 68.</span>
+            <span>1065 Budapest, Hungary</span>
+          </address>
+          <a class="location-phone" href="tel:+36303055305">
+            <span>Reservations</span>
+            <strong>+36 30 305 5305</strong>
+          </a>
+          <div class="location-hours">
+            <p><span>Brunch</span> Tuesday–Sunday · 09:00–15:00</p>
+            <p><span>Bar</span> Thursday–Sunday · 18:00–22:00</p>
+          </div>
+          <a
+            class="button primary"
+            href="https://www.google.com/maps/dir/?api=1&amp;destination=Nagymez%C5%91+utca+68%2C+1065+Budapest"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Get directions on Google Maps
+          </a>
+        </div>
+        <div class="map-frame">
+          <iframe
+            title="305 Budapest location on Google Maps"
+            src="https://www.google.com/maps?q=Nagymez%C5%91+utca+68%2C+1065+Budapest&amp;output=embed"
+            width="600"
+            height="450"
+            style="border: 0"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>305 Budapest</span>
+      <span>Miami Style Brunch & Cocktail Bar</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
